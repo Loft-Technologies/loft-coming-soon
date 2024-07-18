@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+:root {
+  /* defining fonts as variables */
+  --tiny: 300;
+  --very-small: 400;
+  --small-font: 500;
+  --medium-font: 700;
+  --large-font: 800;
+
+  /* defining colors as variables */
+  --slate: #64748b;
+  --orange-10: #ffedd5;
+  --slate-400: #94a3b8;
+  --slate-600: #475569;
+  --form-border: #D0D5DD;
+  --white: rgba(255, 254, 254, 1);
+  --loft-secondary-main-00: #220a08;
+}
+
+body {
+  width: 100%;
+  background: var(--white);
+  font-family: "Lato", sans-serif;
+}

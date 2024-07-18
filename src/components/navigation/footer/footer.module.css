@@ -1,0 +1,36 @@
+.footer {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5.44rem 1.19rem 2.19rem 1.19rem;
+}
+
+.copyright,
+.contact {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.copyright {
+  font-weight: var(--very-small);
+}
+
+.contact {
+  font-weight: var(--large-font);
+}
+
+@media screen and (min-width: 45rem) {
+  .footer {
+    gap: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 3.69rem;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .footer {
+    padding: 5rem 3.75rem;
+  }
+}

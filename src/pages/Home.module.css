@@ -1,0 +1,81 @@
+.homepage {
+  text-align: center;
+  padding: 2.81rem 1.19rem 0 1.19rem;
+}
+
+.heroSection {
+  margin-bottom: 1.82rem;
+}
+
+.header {
+  font-size: 1.5rem;
+  line-height: normal;
+  margin-bottom: 1.31rem;
+  font-weight: var(--large-font);
+  color: var(--loft-secondary-main-00);
+}
+
+.smalltext {
+  margin: 0 1.19rem;
+  font-size: 0.875rem;
+  line-height: normal;
+  margin-bottom: 1.51rem;
+  color: var(--slate-600);
+  font-weight: var(--small-text);
+}
+
+.screenshot {
+  width: 100%;
+}
+
+@media screen and (min-width: 45rem) {
+  .homepage {
+    padding: 5.42rem 3.69rem 0 3.69rem;
+  }
+
+  .header {
+    font-size: 2.88931rem;
+    margin-bottom: 2.53rem;
+  }
+
+  .smalltext {
+    margin: 0 5.9rem;
+    font-size: 1.5rem;
+    margin-bottom: 2.89rem;
+  }
+
+  .form {
+    margin: 0 5.9rem;
+  }
+
+  .screnshotSection {
+    margin: 0 2.5rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .homepage {
+    padding: 6.31rem 7.19rem 0 7.19rem;
+  }
+
+  .header {
+    margin: 0 2.56rem;
+    font-size: 3.125rem;
+    margin-bottom: 1.31rem;
+  }
+
+  .smalltext {
+    margin: 0 20rem;
+    font-size: 1.25rem;
+    margin-bottom: 3.06rem;
+    font-weight: var(--very-small);
+  }
+
+  .form {
+    margin: 0 15.4rem;
+  }
+
+  .screnshotSection {
+    margin: 0;
+  }
+}

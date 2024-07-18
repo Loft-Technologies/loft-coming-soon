@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  margin-top: 0.75rem;
+  align-items: center;
+  padding: 0.88rem 1.19rem;
+  justify-content: space-between;
+}
+
+.brand {
+  width: 4.8125rem;
+  height: 1.53638rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.ctaButton {
+  width: 8.1875rem;
+  height: 2.75rem;
+}
+
+@media screen and (min-width: 45rem) {
+  .navbar {
+    margin-top: 1rem;
+    padding: 0 3.75rem;
+  }
+
+  .brand {
+    width: 9.25rem;
+    height: 2.95306rem;
+  }
+
+  .ctaButton {
+    height: 3.375rem;
+    width: 11.9375rem;
+  }
+}
+
+@media screen and (min-width: 65rem) {
+  .navbar {
+    padding: 0 3.81rem;
+    margin-top: 1.62rem;
+  }
+
+  .ctaButton {
+    width: 10.5625rem;
+  }
+}
