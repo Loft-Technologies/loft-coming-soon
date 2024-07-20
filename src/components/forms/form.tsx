@@ -1,4 +1,4 @@
-import { AsteriskIcon } from '../../assets/icons'
+import { AsteriskIcon } from '../../lib/icons'
 import Button from '../button/button'
 import styles from './form.module.css'
 

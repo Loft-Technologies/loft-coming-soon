@@ -1,4 +1,4 @@
-import { Logo } from '../../../assets/icons'
+import { BrandName } from '../../../lib/icons'
 import { Link } from 'react-router-dom'
 import Button from '../../button/button'
 import styles from './navbar.module.css'
@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={styles.brand}>
         <Link to='/'>
-          <Logo />
+          <BrandName />
         </Link>
       </div>
       <div className={styles.ctaButton}>
